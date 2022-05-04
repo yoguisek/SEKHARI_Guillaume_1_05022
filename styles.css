@@ -393,7 +393,8 @@ img {
     }
 
     .container2 {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .img_boite {
