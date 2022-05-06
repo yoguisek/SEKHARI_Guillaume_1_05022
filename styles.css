@@ -27,6 +27,7 @@ section {
 
 nav {
     display: flex;
+    
     justify-content: space-between;
 }
 
@@ -477,7 +478,9 @@ ul {
 .content {
     max-width: 100%;
     padding-inline: 10px;
+    margin-left: 15px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
 }
 
